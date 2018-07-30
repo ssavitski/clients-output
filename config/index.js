@@ -43,6 +43,15 @@ module.exports = {
     cssSourceMap: true
   },
 
+  credentials: {
+    baseURL: '',
+    APP_ID: '',
+    API_KEY: '',
+    ENTITY_ID: {
+      clients: '',
+    },
+  },
+
   build: {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
